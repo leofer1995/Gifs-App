@@ -11,7 +11,7 @@ const AddCategory = ({setCategories})=>{
     const handleSubmit = (e)=>{
         e.preventDefault();
         if(input.trim().length > 2){
-            setCategories(catg => [...catg,input])
+            setCategories(catg => [input,...catg])
             setInput('')
         }
         
@@ -20,6 +20,7 @@ const AddCategory = ({setCategories})=>{
     return (
         <form onSubmit={e=>{handleSubmit(e)}}>
             <input 
+                className='searchBar'
                 type="text" 
                 value = {input}
                 onChange = {e=>handleChange(e)}
