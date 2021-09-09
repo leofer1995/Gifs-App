@@ -17,9 +17,9 @@ const GifExpertApp=()=>{
             <hr />
             {/* <button onClick={handleAdd}>Agregar</button> */}
             <ol>
-                {categories.map(category=>
+                {categories.map((category,i)=>
                     <GifGrid 
-                        key = {category}
+                        key = {i}
                         category={category}
                     />)}
             </ol>
