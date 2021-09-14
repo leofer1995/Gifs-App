@@ -6,6 +6,7 @@ const AddCategory = ({setCategories})=>{
 
     const handleChange = (e)=>{
         setInput(e.target.value)
+
     }
 
     const handleSubmit = (e)=>{
@@ -19,6 +20,7 @@ const AddCategory = ({setCategories})=>{
 
     return (
         <form onSubmit={e=>{handleSubmit(e)}}>
+            <p> {input} </p>
             <input 
                 className='searchBar'
                 type="text" 

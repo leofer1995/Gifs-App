@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en el componente AddCategory deberia mostrarse corewectamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+     
+  </p>
+  <input
+    className="searchBar"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
