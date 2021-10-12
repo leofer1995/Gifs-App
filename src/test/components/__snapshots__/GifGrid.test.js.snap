@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en componente GifGrid deberia renderizar GifGrid 1`] = `
+<Fragment>
+  <h3>
+    Rick and Morty
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="Card-Grid"
+  />
+  <hr />
+</Fragment>
+`;
