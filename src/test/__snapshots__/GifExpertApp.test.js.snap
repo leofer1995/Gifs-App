@@ -1,7 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pruebas en <GifExpertApp /> debe mostar una lista de categorias 1`] = `2`;
-
 exports[`pruebas en <GifExpertApp /> deberia mostrarse correctamente 1`] = `
 <Fragment>
   <h2>
